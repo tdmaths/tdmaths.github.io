@@ -1,4 +1,3 @@
 # tdmaths.github.io
-Mon site
+Le site pour mes étudiants.
 
-https://github.com/tdmaths/tdmaths.github.io/blob/master/mathjax_example.html

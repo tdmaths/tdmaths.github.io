@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Tri à bulles</title>
+    <script type="application/javascript" src='./TriABullesCanvasJavascript.js'></script>
+    <style type="text/css">
+      canvas { border: 1px solid black; display:block; }
+    </style>
+  </head>
+  <body onload="setlist();">
+    <h1>Tri à bulles</h1>
+    <canvas id="canvas" width="950" height="350"></canvas>
+    <input type="range" min="1" max="100" value="50" class="slider" id="speed"></input>
+    <button onclick="doit();">Start</button>
+    <input type="text" id="list" size="40"></input>
+    <input type="text" id="list2" size="40"></input>
+  </body>
+</html>
